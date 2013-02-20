@@ -35,16 +35,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dialog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="29" selection-start="2493" selection-end="2493" vertical-scroll-proportion="-7.516129">
+            <state line="12" column="9" selection-start="431" selection-end="480" vertical-scroll-proportion="-10.064516">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dialog.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dialog.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dialog/dialog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="46" selection-start="3425" selection-end="3425" vertical-scroll-proportion="0.19301648">
+            <state line="104" column="46" selection-start="3425" selection-end="3425" vertical-scroll-proportion="-7.6538463">
               <folding>
                 <element signature="n#!!doc;n#Dialog#0" expanded="false" />
                 <element signature="e#121#197#0" expanded="false" />
@@ -121,6 +121,15 @@
                 <element signature="e#5047#5413#0" expanded="false" />
                 <element signature="e#5216#5397#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="8" selection-start="1337" selection-end="1337" vertical-scroll-proportion="-0.20631787">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -203,6 +212,7 @@
         <option value="$USER_HOME$/Desktop/vip推荐票用户榜/ vip推荐票用户榜.html" />
         <option value="$PROJECT_DIR$/dialog/dialog.js" />
         <option value="$PROJECT_DIR$/dialog/index.html" />
+        <option value="$PROJECT_DIR$/list/index.html" />
       </list>
     </option>
   </component>
@@ -285,6 +295,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="list" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cODE_pLUgiN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cODE_pLUgiN" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dialog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -300,6 +324,7 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../rEAd" />
     <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -404,16 +429,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/slider2/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1778#6347#0" expanded="false" />
-            <element signature="e#6372#8393#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slider2/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="41" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
@@ -531,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/slider2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="26" selection-start="1876" selection-end="1876" vertical-scroll-proportion="-49.48387">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/slider2/slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="9" selection-start="1035" selection-end="1558" vertical-scroll-proportion="0.0">
@@ -548,16 +556,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/slider2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="26" selection-start="1876" selection-end="1876" vertical-scroll-proportion="-49.48387">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dialog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="29" selection-start="2493" selection-end="2493" vertical-scroll-proportion="-7.516129">
+        <state line="12" column="9" selection-start="431" selection-end="480" vertical-scroll-proportion="-10.064516">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dialog/dialog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="46" selection-start="3425" selection-end="3425" vertical-scroll-proportion="0.19301648">
+        <state line="104" column="46" selection-start="3425" selection-end="3425" vertical-scroll-proportion="-7.6538463">
           <folding>
             <element signature="n#!!doc;n#Dialog#0" expanded="false" />
             <element signature="e#121#197#0" expanded="false" />
@@ -634,6 +649,13 @@
             <element signature="e#5047#5413#0" expanded="false" />
             <element signature="e#5216#5397#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="8" selection-start="1337" selection-end="1337" vertical-scroll-proportion="-0.20631787">
+          <folding />
         </state>
       </provider>
     </entry>
