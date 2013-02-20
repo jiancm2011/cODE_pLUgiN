@@ -8,57 +8,104 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-black">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
     <style>
-        body { margin:0; padding:0;
-            height: 2000px; }
-        ul { list-style:none; }
-        .s1 { background:red; }
-        .s2 { background:green; }
-        .s3 { background:blue; }
-        .s4 { background:yellow; }
-
-        .slider { width:100%; overflow:hidden; }
-        .slider_tabBar { display:inline-block;}
-        .slider_tabBar li { float:left; }
-        .slider_tabBar .cur { background:#aaa; }
-        .slider_content {
-            position: relative;
-            padding: 12px 0 8px;
-            background: #f3f3f3;
-            text-align: center;
-            border-bottom:1px solid #bebebe;
-            height:145px;
-            -webkit-backface-visibility:hidden;
-            -webkit-transform-style:preserve-3d;
+        body {
+            margin:0; padding:0;
         }
-        .slider_content li {
-            float:left;
-            height:145px;
+        #dialog
+        {
+            position: absolute;
+            /*top: 50%;
+            left: 50%;
+            margin: -67px 0 0 -136px;*/
+            z-index: 1024522;
+            /*width: 272px;
+            height:134px;*/
+            background: #fff;
+            border: 3px solid #31c5ee;
+            box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.14);
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -o-border-radius: 10px;
+            border-radius: 10px;
+            color: #175c97;
+            -webkit-transform: scale(0);
+            -moz-transform: scale(0);
+            -o-transform: scale(0);
+            transform: scale(0);
+            -webkit-transition: -webkit-transform 300ms ease-out;
+            -moz-transition: -moz-transform 300ms ease-out;
+            -o-transition: -o-transform 300ms ease-out;
+            transition: transform 300ms ease-out;
+            font-size: 16px;
+            overflow: visible;
+        }
+        #dialogTitle
+        {
+            height: 42px;
+            line-height: 42px;
+            padding: 0 14px;
+            color:#aeb2b7;
+            display: none;
+        }
+        #dialogContent
+        {
+            min-height: 32px;
+            line-height: 32px;
+            padding:10px 14px;
+            color:#0c84a6;
+            font-size: 16px;
+        }
+        #dialogButton {
+            text-align: center;
+            position: relative;
+            overflow: visible;
+            padding: 0 10px 10px;
+        }
+        #dialogButton input{
+            border: 3px solid #31c5ee;
+            color:#0c84a6;
+            background: #fff;
+            padding: 10px 40px;
+            font-size: 16px;
+            -webkit-border-radius:10px;
+            -moz-border-radius:10px;
+            -o-border-radius:10px;
+            border-radius:20px;
+            cursor: pointer;
+        }
+        #dialogBtnConfirm{
+            margin-right: 5px;
+        }
+        #dialogBtnCancel{
+            margin-left: 5px;
+        }
+        #dialogMask {
+            width: 100%;
+            height: 100%;
+            z-index: 1024521;
         }
     </style>
 </head>
 <body>
 
-<div class="slider">
-    <ul class="slider_tabBar">
-        <li class="cur">热门</li>
-        <li>最新</li>
-        <li>最新</li>
-        <li>最新</li>
-    </ul>
-    <ul class="slider_content">
-        <li class="s1">1</li>
-        <li class="s2">2</li>
-        <li class="s3">3</li>
-        <li class="s4">4</li>
-    </ul>
-</div>
-<script type="text/javascript" src="slider.js"></script>
+<button id="popup">弹窗</button>
+<script type="text/javascript" src="dialog.js"></script>
 <script type="text/javascript">
-    var slider = Slider({
-        tab: document.querySelector(".slider_tabBar"),
-        cont: document.querySelector(".slider_content"),
-        playInterval: 2000
-    });
+    var dialog = new Dialog();
+    document.querySelector("#popup").onclick = function() {
+        dialog.show({
+            content: "我是弹窗！",
+            button: [
+                {
+                    value: "确定",
+                    onclick: function() {
+                        dialog.hide();
+                    }
+                },
+                {}
+            ]
+        });
+    }
 </script>
 </body>
 </html>

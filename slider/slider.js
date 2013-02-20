@@ -16,7 +16,7 @@ function Slider(opt) {
             playInterval: 5000  //动画自动播放的切换间隔时间，缺省值:5000ms [可选]
         };
 
-    function extend(target){
+    function extend(target) {
         [].slice.call(arguments, 1).forEach(function(source) {
             for (key in source) {
                 source[key] !== undefined && (target[key] = source[key]);
